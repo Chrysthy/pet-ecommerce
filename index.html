@@ -19,7 +19,38 @@
 
         <h1 class="produtos">Produtos</h1>
 
-        <div class="filtros"></div>
+        <div class="filtros">
+
+            <div class="categorias-itens">
+
+                <label for="categoria">Categoria</label>
+
+                <select class="categoria-itens">
+
+                    <option value="">Selecione uma Categoria</option>
+
+                    <option value="gato">Gato</option>
+                    <option value="cachorro">Cachorro</option>
+                    <option value="peixe">Peixe</option>
+                    <option value="hamster">Hamster</option>
+
+
+                </select>
+
+            </div>
+
+            <div class="preco-itens">
+
+                <label for="preco-itens">Preço máximo (R$)</label>
+
+                <input type="text" id="preco" class="preco" placeholder="Digite o preço máximo">
+
+            </div>
+
+            <button class="btn-filtrar">Aplicar Filtros</button>
+
+
+        </div>
 
         <ul class="itens"></ul>
 
