@@ -1,0 +1,18 @@
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+.cabecalho {
+    background-color: #808080;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    margin-bottom: 60px;
+
+}
+
+.container {
+    background-color: blue;
+    max-width: 1170px;
+    margin: 0 auto;
+}
