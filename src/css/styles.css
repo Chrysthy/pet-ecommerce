@@ -12,7 +12,7 @@ body {
 }
 
 .container {
-    background-color: #f0f0f0;
+    /* background-color: #f0f0f0; */
     max-width: 1170px;
     margin: 0 auto;
 }
@@ -66,4 +66,22 @@ body {
     background-size: 16px 16px;
     padding-right: 10px;
     cursor: pointer;
+}
+
+.container .filtros .btn-filtrar {
+    border: none;
+    background-color: #808080;
+    color: #ededed;
+    padding: 16px 32px;
+    font-weight: 500;
+    align-self: end;
+    width: 177px;
+    height: 52px;
+    cursor: pointer;
+    letter-spacing: 2px;
+    transition: 0.3s;
+}
+
+.container .filtros .btn-filtrar:hover {
+    background-color: #6c6c6c;
 }
