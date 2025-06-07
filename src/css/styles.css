@@ -115,3 +115,10 @@ body {
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
 }
+
+.container .item .informacoes .nome-item {
+    font-size: 24px;
+    font-weight: 700;
+    color: #111;
+    
+}
