@@ -87,9 +87,16 @@ body {
 }
 
 .container .itens {
-    background-color: orange;
     display: flex;
     flex-wrap: wrap;
     gap: 32px;
     margin-top: 32px;
+}
+
+.container .itens .item {
+    max-width: 365px;
+    background-color: #ededed;
+    color: #0e0027;
+    border-radius: 20px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2)
 }
