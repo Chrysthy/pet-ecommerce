@@ -60,7 +60,7 @@ body {
     outline: none;
 }
 
-.container .categoria {
+.container select.categoria {
     appearance: none;
     background: url(../images/pata-gato.png) 97% center no-repeat;
     background-size: 16px 16px;
@@ -147,4 +147,13 @@ body {
 
 .container .item .informacoes .btn-comprar:hover {
     background-color: #33008f;
+}
+
+.rodape {
+    display: flex;
+    justify-content: center;
+    background-color: #808080;
+    color: #ededed;
+    padding: 20px;
+    margin: 60px;
 }
