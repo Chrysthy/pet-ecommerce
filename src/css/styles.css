@@ -157,3 +157,11 @@ body {
     padding: 20px;
     margin: 60px;
 }
+
+.esconder {
+    display: none;
+}
+
+.mostrar {
+    display: none;
+}
