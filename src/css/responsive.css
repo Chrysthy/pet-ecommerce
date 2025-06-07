@@ -14,9 +14,9 @@
         gap: 16px;
     }
 
-    .container .filtros .categorias-itens, 
+    .container .filtros .categorias-itens,
     .container .filtros .preco-itens,
-    .container .filtros .btn-filtrar  {
+    .container .filtros .btn-filtrar {
         width: 65%;
     }
 
@@ -26,5 +26,13 @@
 
     .container .itens {
         justify-content: center;
+    }
+}
+
+@media (max-width: 480px) {
+    .container .filtros .categorias-itens,
+    .container .filtros .preco-itens,
+    .container .filtros .btn-filtrar {
+        width: 100%;
     }
 }
