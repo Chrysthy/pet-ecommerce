@@ -25,7 +25,11 @@
 
     <header class="cabecalho">
 
-        <img src="./src/images/logo1.png" alt="Logo do AuMiau Pet Shop" width="120" height="120">
+        <a href="/">
+
+            <img src="./src/images/logo1.png" alt="Logo do AuMiau Pet Shop" width="120" height="120">
+
+        </a>
 
     </header>
 
@@ -39,7 +43,7 @@
 
                 <label for="categoria">Categoria</label>
 
-                <select class="categoria">
+                <select id="categoria">
 
                     <option value="">Selecione uma Categoria</option>
 
@@ -66,9 +70,9 @@
 
         <ul class="itens">
 
-            <li class="item" data-categoria="gato" data-preco="150">
+            <li class="item" data-categoria="gato" data-preco="155">
 
-                <img src="./src/images/racao-gato.png" alt="Ração para Gatos" width="200" height="200">
+                <img src="./src/images/racao-gato.png" alt="Ração para Gatos">
 
                 <div class="informacoes">
 
@@ -76,9 +80,9 @@
 
                     <span class="categoria">Categoria: Comida</span>
 
-                    <span class="preco">R$150,00</span>
+                    <span class="preco">R$155,00</span>
 
-                    <a href="http://wa.me/55519999999?text=Olá, tenho interesse neste produto do AuMiau Pet Shop!"
+                    <a href="http://wa.me/55519999999?text=Olá, tenho interesse neste produto de ração para gatos do AuMiau Pet Shop!"
                         class="btn-comprar" target="_blank">Comprar</a>
 
                 </div>
@@ -87,7 +91,7 @@
 
             <li class="item" data-categoria="cachorro" data-preco="150">
 
-                <img src="./src/images/racao-cachorro.png" alt="Ração para Cachorros" width="200" height="200">
+                <img src="./src/images/racao-cachorro.png" alt="Ração para Cachorros">
 
                 <div class="informacoes">
 
@@ -97,16 +101,16 @@
 
                     <span class="preco">R$150,00</span>
 
-                    <a href="http://wa.me/55519999999?text=Olá, tenho interesse neste produto do AuMiau Pet Shop!"
+                    <a href="http://wa.me/55519999999?text=Olá, tenho interesse neste produto de ração para cachorros do AuMiau Pet Shop!"
                         class="btn-comprar" target="_blank">Comprar</a>
 
                 </div>
 
             </li>
 
-            <li class="item" data-categoria="gato" data-preco="30">
+            <li class="item" data-categoria="gato" data-preco="15">
 
-                <img src="./src/images/brinquedo-de-gato.png" alt="Brinquedo para Gatos" width="200" height="200">
+                <img src="./src/images/brinquedo-de-gato.png" alt="Brinquedo para Gatos">
 
                 <div class="informacoes">
 
@@ -114,17 +118,17 @@
 
                     <span class="categoria">Categoria: Brinquedo</span>
 
-                    <span class="preco">R$30,00</span>
+                    <span class="preco">R$15,00</span>
 
-                    <a href="http://wa.me/55519999999?text=Olá, tenho interesse neste produto do AuMiau Pet Shop!"
+                    <a href="http://wa.me/55519999999?text=Olá, tenho interesse neste produto de brinquedo para gatos do AuMiau Pet Shop!"
                         class="btn-comprar" target="_blank">Comprar</a>
                 </div>
 
             </li>
 
-            <li class="item" data-categoria="cachorro" data-preco="30">
+            <li class="item" data-categoria="cachorro" data-preco="35">
 
-                <img src="./src/images/brinquedo-cachorro.png" alt="Brinquedo para Cachorros" width="200" height="200">
+                <img src="./src/images/brinquedo-cachorro.png" alt="Brinquedo para Cachorros">
 
                 <div class="informacoes">
 
@@ -132,18 +136,94 @@
 
                     <span class="categoria">Categoria: Brinquedo</span>
 
-                    <span class="preco">R$30,00</span>
+                    <span class="preco">R$35,00</span>
 
-                    <a href="http://wa.me/55519999999?text=Olá, tenho interesse neste produto do AuMiau Pet Shop!"
+                    <a href="http://wa.me/55519999999?text=Olá, tenho interesse neste produto de brinquedo para cachorros do AuMiau Pet Shop!"
                         class="btn-comprar" target="_blank">Comprar</a>
 
                 </div>
 
             </li>
 
-            <li class="item" data-categoria="servicos" data-preco="250">
+            <li class="item" data-categoria="gato" data-preco="32.90">
 
-                <img src="./src/images/kit-gato.png" alt="Serviços para Pets" width="200" height="200">
+                <img src="./src/images/caminha-gato.png" alt="Caminha para gatos">
+
+                <div class="informacoes">
+
+                    <h2 class="nome-item">Caminha para Gato</h2>
+
+                    <span class="categoria">Categoria: Cama</span>
+
+                    <span class="preco">R$110,80</span>
+
+                    <a href="http://wa.me/55519999999?text=Olá, tenho interesse neste produto de caminha de gato do AuMiau Pet Shop!"
+                        class="btn-comprar" target="_blank">Comprar</a>
+
+                </div>
+
+            </li>
+
+            <li class="item" data-categoria="cachorro" data-preco="35">
+
+                <img src="./src/images/caminha-cachorro.png" alt="Caminha para Cachorros">
+
+                <div class="informacoes">
+
+                    <h2 class="nome-item">Caminha para Cachorros</h2>
+
+                    <span class="categoria">Categoria: Cama</span>
+
+                    <span class="preco">R$125,99</span>
+
+                    <a href="http://wa.me/55519999999?text=Olá, tenho interesse neste produto de caminha para cachorro do AuMiau Pet Shop!"
+                        class="btn-comprar" target="_blank">Comprar</a>
+
+                </div>
+
+            </li>
+
+            <li class="item" data-categoria="gato" data-preco="29.99">
+
+                <img src="./src/images/petisco-gato.png" alt="Petisco para gatos">
+
+                <div class="informacoes">
+
+                    <h2 class="nome-item">Petisco para Gato</h2>
+
+                    <span class="categoria">Categoria: Petisco</span>
+
+                    <span class="preco">R$29,99</span>
+
+                    <a href="http://wa.me/55519999999?text=Olá, tenho interesse neste produto de petisco de cachorro do AuMiau Pet Shop!"
+                        class="btn-comprar" target="_blank">Comprar</a>
+
+                </div>
+
+            </li>
+
+            <li class="item" data-categoria="cachorro" data-preco="31.99">
+
+                <img src="./src/images/petisco-cachorro.png" alt="Petisco para cachorros">
+
+                <div class="informacoes">
+
+                    <h2 class="nome-item">Petisco para Cachorro</h2>
+
+                    <span class="categoria">Categoria: Petisco</span>
+
+                    <span class="preco">R$31,99</span>
+
+                    <a href="http://wa.me/55519999999?text=Olá, tenho interesse neste produto de petisco de cachorro do AuMiau Pet Shop!"
+                        class="btn-comprar" target="_blank">Comprar</a>
+
+                </div>
+
+            </li>
+
+            <li class="item" data-categoria="servicos" data-preco="280">
+
+                <img src="./src/images/kit-gato.png" alt="Serviços para Pets">
 
                 <div class="informacoes">
 
@@ -151,18 +231,18 @@
 
                     <span class="categoria">Categoria: Serviços</span>
 
-                    <span class="preco">R$250,00</span>
+                    <span class="preco">R$280,00</span>
 
-                    <a href="http://wa.me/55519999999?text=Olá, tenho interesse neste produto do AuMiau Pet Shop!"
+                    <a href="http://wa.me/55519999999?text=Olá, tenho interesse neste serviço de banho & tosa de gato do AuMiau Pet Shop!"
                         class="btn-comprar" target="_blank">Comprar</a>
 
                 </div>
 
             </li>
 
-            <li class="item" data-categoria="servicos" data-preco="250">
+            <li class="item" data-categoria="servicos" data-preco="200">
 
-                <img src="./src/images/kit-cachorro.png" alt="Serviços para Pets" width="200" height="200">
+                <img src="./src/images/kit-cachorro.png" alt="Serviços para Pets">
 
                 <div class="informacoes">
 
@@ -170,9 +250,47 @@
 
                     <span class="categoria">Categoria: Serviços</span>
 
-                    <span class="preco">R$250,00</span>
+                    <span class="preco">R$210,00</span>
 
-                    <a href="http://wa.me/55519999999?text=Olá, tenho interesse neste produto do AuMiau Pet Shop!"
+                    <a href="http://wa.me/55519999999?text=Olá, tenho interesse neste serviço de banho & tosa de cachorro do AuMiau Pet Shop!"
+                        class="btn-comprar" target="_blank">Comprar</a>
+
+                </div>
+
+            </li>
+
+            <li class="item" data-categoria="servicos" data-preco="1800">
+
+                <img src="./src/images/adestracao-gato.png" alt="Serviços para Pets">
+
+                <div class="informacoes">
+
+                    <h2 class="nome-item">Adestração: Gato</h2>
+
+                    <span class="categoria">Categoria: Serviços</span>
+
+                    <span class="preco">R$1.800,00</span>
+
+                    <a href="http://wa.me/55519999999?text=Olá, tenho interesse neste serviço de adestração de gato do AuMiau Pet Shop!"
+                        class="btn-comprar" target="_blank">Comprar</a>
+
+                </div>
+
+            </li>
+
+            <li class="item" data-categoria="servicos" data-preco="1200">
+
+                <img src="./src/images/adestracao-cachorro.png" alt="Serviços para Pets">
+
+                <div class="informacoes">
+
+                    <h2 class="nome-item">Adestração: Cachorro</h2>
+
+                    <span class="categoria">Categoria: Serviços</span>
+
+                    <span class="preco">R$1.200,00</span>
+
+                    <a href="http://wa.me/55519999999?text=Olá, tenho interesse neste serviço de adestração de cachorro do AuMiau Pet Shop!"
                         class="btn-comprar" target="_blank">Comprar</a>
 
                 </div>
