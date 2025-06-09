@@ -57,3 +57,9 @@ The purpose was to practice:
 * Smooth hover effects and transitions
 
 <br>
+
+## 📜 License
+
+* This project is licensed under the [MIT License](https://choosealicense.com/licenses/mit/)
+
+<br>
