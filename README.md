@@ -63,3 +63,8 @@ The purpose was to practice:
 * This project is licensed under the [MIT License](https://choosealicense.com/licenses/mit/)
 
 <br>
+
+## 🫱🏻‍🫲🏻 Contributing
+<p> Contributions, issues, and feature requests are welcome! Please, feel free to do it! 😉 </p>
+
+<br>
