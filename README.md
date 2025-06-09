@@ -24,3 +24,13 @@
 <img src=".github/gif-do-projeto.gif" alt="gif do projeto">
 
 <br>
+
+## 🛠 Technologies
+
+- HTML5  
+- CSS3  
+- JavaScript (Vanilla)  
+- Google Fonts   
+- Git and GitHub
+
+<br>
