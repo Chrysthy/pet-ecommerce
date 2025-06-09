@@ -34,3 +34,16 @@
 - Git and GitHub
 
 <br>
+
+## 💻 Project
+
+This project simulates a landing page for AuMiau Pet Shop, an e-commerce designed to showcase pet products in a fun and engaging way. Users can explore different product categories and filter items by price, with direct links to purchase via WhatsApp.
+
+The purpose was to practice:
+
+* Clean and responsive HTML/CSS layout
+* DOM manipulation with JavaScript
+* Dynamic filtering of products
+* Friendly UI/UX design for online shopping
+
+<br>
