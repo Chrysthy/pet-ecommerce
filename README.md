@@ -50,10 +50,10 @@ The purpose was to practice:
 
 ## ✨ Features
 
-✅ Product filtering by category and price
-✅ Direct purchase links via WhatsApp
-✅ Responsive layout for mobile and desktop
-✅ Clean and modern interface with pet-friendly design
-✅ Smooth hover effects and transitions
+* Product filtering by category and price
+* Direct purchase links via WhatsApp
+* Responsive layout for mobile and desktop
+* Clean and modern interface with pet-friendly design
+* Smooth hover effects and transitions
 
 <br>
