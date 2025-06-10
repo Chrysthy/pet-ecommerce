@@ -63,13 +63,19 @@ body {
     outline: none;
 }
 
-.container select.categoria {
+.container select#categoria {
     appearance: none;
-    background: url(../images/pata-gato.png) 97% center no-repeat;
+
+    background-color: #f3eefa;
+    background-image: url(../images/pata-gato.png) ;
+    background-repeat: no-repeat;
+    background-position: 97% center;
     background-size: 16px 16px;
-    padding-right: 10px;
+
+    padding-right: 30px;    
     cursor: pointer;
 }
+
 
 .container .filtros .btn-filtrar {
     border: none;
