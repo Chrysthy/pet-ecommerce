@@ -49,6 +49,7 @@ This project simulates a landing page for AuMiau Pet Shop, an e-commerce designe
 * Clean and modern interface with pet-friendly design
 * Smooth hover effects and transitions
 * DOM manipulation with JavaScript
+* AI-generated images
 
 <br>
 
